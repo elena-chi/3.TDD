@@ -12,7 +12,7 @@ def solve(a, b, c):
         x2 = (-b - math.sqrt(discriminant)) / (2*a)
         return [x1, x2]
 
-# Тест для уравнения x^2 + 1 = 0
+# Тест для уравнения x^2 + 1 = 0 
 a = 1
 b = 0
 c = 1
