@@ -1,5 +1,4 @@
 import math
-
 def solve(a, b, c):
     discriminant = b**2 - 4*a*c
     if discriminant < 0:
@@ -11,7 +10,6 @@ def solve(a, b, c):
         x1 = (-b + math.sqrt(discriminant)) / (2*a)
         x2 = (-b - math.sqrt(discriminant)) / (2*a)
         return [x1, x2]
-
 # Тест для уравнения x^2 + 1 = 0 
 a = 1
 b = 0
@@ -22,3 +20,4 @@ if result == expected_result:
     print("Тест пройден: Решение уравнения x^2 + 1 = 0 верное")
 else:
     print("Тест не пройден: Решение уравнения x^2 + 1 = 0 неверное")
+# Тест завершен
